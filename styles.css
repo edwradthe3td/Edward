@@ -148,6 +148,7 @@ nav {
 
 .home-boxx img {
   height: 350px;
+  border-radius: 100%;
 }
 
 .home-box {
