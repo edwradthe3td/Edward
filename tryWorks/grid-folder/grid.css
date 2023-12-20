@@ -1,0 +1,42 @@
+body{
+  height: 10000px;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.grid{
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.vid-img{
+  height: 400px;
+  width: 400px;
+}
+
+
+/* ---------------------------------------- */
+.gridd{
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  /* column-gap: 20px;
+  row-gap: 40px; */
+  column-gap: 40px;
+  margin: 40px;
+  /* margin-left: -20px; */
+}
+
+.box-grid{
+  border: 1px solid black;
+}
+.first{
+  background-color: lightblue;
+  height: 500px;
+  row-gap: 30px;
+}
+.second{
+  background-color: lightpink;
+  height: 500px;
+  row-gap: 30px;
+}
